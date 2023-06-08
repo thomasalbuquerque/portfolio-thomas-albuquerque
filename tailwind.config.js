@@ -12,10 +12,11 @@ module.exports = {
         darkBlue: '#1a2430',
         aBitMoreDarkBlue: '#18212c',
         veryDarkBlue: '#0a0f15',
-        accentColor: '#08428c',
+        accentColor: '#0960d1',
         hoverAccentColor: '#073673',
         gray: '#eff9ff',
         hoverGray: '#b9c2c7',
+        hoverDisabled: '#868d91',
         transparent: '#18212c27',
       },
       fontFamily: {
@@ -23,7 +24,7 @@ module.exports = {
         'monoText': ['Share', 'ui-monospace', 'SFMono-Regular'],
       },
       height: {
-        '104': '26rem',
+        '108': '28rem',
       }
     }, screens: {
       'xsm': '320px',

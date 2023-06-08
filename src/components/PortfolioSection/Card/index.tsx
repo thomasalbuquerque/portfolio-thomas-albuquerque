@@ -1,11 +1,14 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 interface props {
   imgUrl: string;
   title: string;
   description: string;
   hrefPreview: string;
-  hrefGitHub: string;
+  hrefGitHubFrontend: string;
+  hrefGitHubBackend: string;
 }
 
 // const SlideSection = function ({ newestCourses }: props) {
@@ -15,13 +18,18 @@ export default function Card({
   title,
   description,
   hrefPreview,
-  hrefGitHub,
+  hrefGitHubFrontend,
+  hrefGitHubBackend,
 }: props) {
+  let fullStack = false;
+  if (hrefGitHubFrontend && hrefGitHubBackend) {
+    fullStack = true;
+  }
   return (
     <>
       <div
         id="card"
-        className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-xs md:space-y-4 h-80 md:h-104 bg-aBitMoreDarkBlue">
+        className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-sm gap-4  h-108 bg-aBitMoreDarkBlue">
         <div className="h-16 md:h-28 flex flex-col justify-center items-center">
           <img
             src={imgUrl}
@@ -35,17 +43,52 @@ export default function Card({
         <p className="font-monoText max-w-xs h-16 md:h-20 text-base md:text-lg">
           {description}
         </p>
-        <div id="buttons" className="flex w-full justify-between pt-3">
-          <a
-            href={hrefPreview}
-            className="px-4 py-1 rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150">
-            Preview
-          </a>
-          <a
-            href={hrefGitHub}
-            className="px-4 py-1 rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150">
-            GitHub
-          </a>
+        <div className="flex flex-wrap justify-center items-center gap-2 w-64 h-20">
+          {hrefPreview ? (
+            <a
+              href={hrefPreview}
+              className={`px-3 py-1 rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150 ${
+                fullStack ? 'mx-16' : ''
+              }`}
+              target="_blank">
+              Preview
+            </a>
+          ) : (
+            <a
+              href={hrefPreview}
+              className={`px-3 py-1 rounded-md border-accentColor border text-hoverDisabled hover:border-hoverAccentColor duration-150 pointer-events-none ${
+                fullStack ? 'mx-16' : ''
+              }`}
+              target="_blank">
+              Preview
+            </a>
+          )}
+          {hrefGitHubFrontend ? (
+            <a
+              href={hrefGitHubFrontend}
+              className={`px-3 py-1 rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150 w-[7.5rem] `}
+              target="_blank">
+              <div className="flex justify-between items-center">
+                <div>Frontend</div>
+                <FontAwesomeIcon icon={faGithub} className="h-4" />
+              </div>
+            </a>
+          ) : (
+            <></>
+          )}
+          {hrefGitHubBackend ? (
+            <a
+              href={hrefGitHubBackend}
+              className="px-3 py-1  rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150 w-[7.5rem]"
+              target="_blank">
+              <div className="flex justify-center gap-2 items-center">
+                <div>Backend</div>
+                <FontAwesomeIcon icon={faGithub} className="h-4" />
+              </div>
+            </a>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </>

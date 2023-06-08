@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function NavBar() {
   return (
@@ -8,10 +10,11 @@ export default function NavBar() {
         <div className="flex items-center justify-between font-monoTitle ">
           {/* Logo */}
           <div className="flex text-2xl lg:ml-11 2xl:ml-36">
-            {/* <img src="./thomas" alt="" /> */}
-            <div className="text-accentColor">{'<'}</div>
-            <div className="text-gray">{'Thomas Albuquerque'}</div>
-            <div className="text-accentColor">{'/>'}</div>
+            <img
+              src="./thomas-albuquerque-logo.svg"
+              className="w-64"
+              alt="logo website"
+            />
           </div>
           {/* Menu Items */}
           <div className="hidden md:flex items-center space-x-12 text-lg lg:mr-11 2xl:mr-36">

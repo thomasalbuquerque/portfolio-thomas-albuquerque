@@ -22,34 +22,30 @@ export default function PortfolioSection() {
             Portfólio
           </h2>
           {/* Flex Items*/}
-          <div className="flex flex-col flex-wrap items-center justify-center pt-4 space-y-8 md:gap-4 md:space-y-0 md:flex-row">
+          <div className="flex flex-col sm:flex-wrap items-center justify-center pt-4 space-y-8 md:gap-4 md:space-y-0 md:flex-row">
             <Card
-              imgUrl="./thomas-albuquerque-logo.png"
+              imgUrl="./thomas-albuquerque-logo.svg"
               title="Thomas Albuquerque"
-              description="Concepção, design e desenvolvimento deste site."
+              description="Desenvolvimento deste site de portfólio."
               hrefPreview=""
-              hrefGitHub=""
+              hrefGitHubFrontend="https://github.com/thomasalbuquerque/portfolio-thomas-albuquerque"
+              hrefGitHubBackend=""
+            />
+            <Card
+              imgUrl="./currency-converter.png"
+              title="Currency Converter"
+              description="Desenvolvimento de uma aplicação de conversão de moedas."
+              hrefPreview="https://currency-converter-frontend-beta.vercel.app/"
+              hrefGitHubFrontend="https://github.com/thomasalbuquerque/currency-converter_frontend"
+              hrefGitHubBackend="https://github.com/thomasalbuquerque/currency-converter_backend"
             />
             <Card
               imgUrl="./sicure-seg.png"
               title="Sicure Seguros"
-              description="Concepção, design e desenvolvimento do site de uma corretora de seguros."
+              description="Desenvolvimento do site de uma corretora de seguros. Segue em desenvolvimento."
               hrefPreview=""
-              hrefGitHub=""
-            />
-            <Card
-              imgUrl="./sicure-seg.png"
-              title="Sicure Seguros"
-              description="Concepção, design e desenvolvimento do site de uma corretora de seguros."
-              hrefPreview=""
-              hrefGitHub=""
-            />
-            <Card
-              imgUrl="./sicure-seg.png"
-              title="Sicure Seguros"
-              description="Concepção, design e desenvolvimento do site de uma corretora de seguros."
-              hrefPreview=""
-              hrefGitHub=""
+              hrefGitHubFrontend=""
+              hrefGitHubBackend=""
             />
           </div>
         </div>
