@@ -11,7 +11,7 @@ export default function PortfolioSection() {
   return (
     <>
       <section
-        id="PortfolioSection"
+        id="portfolioSection"
         className="text-gray"
         data-aos="fade-zoom-in"
         data-aos-duration={800}

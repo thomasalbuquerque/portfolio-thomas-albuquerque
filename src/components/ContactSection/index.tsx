@@ -19,20 +19,20 @@ export default function ContactSection() {
   return (
     <>
       <section
-        id="ContactSection"
+        id="contactSection"
         className="text-gray"
         data-aos="fade-zoom-in"
         data-aos-duration={800}
         data-aos-offset={300}>
         <div className="container flex flex-col max-w-4xl mx-auto mt-24 px-10 py-14 sm:px-24 text-gray bg-gradient-to-b from-darkBlue to-transparent">
           <div className="font-monoTitle text-3xl md:text-4xl">Contato</div>
-          <div className="text-base mt-10 md:text-xl font-monoText">
+          <div className="text-base md:text-xl mt-10 font-monoText">
             Caso considere que eu possa contribuir com seus projetos, por favor
             envie-me uma mensagem no LinkedIn ou no e-mail
             thomasalbuquerque@proton.me que estarei à disposição. :)
           </div>
           {/* <div className=""> */}
-          <div className="flex flex-col mt-9 gap-4 sm:flex-row sm:gap-4 sm:justify-around items-center">
+          <div className="flex flex-col mt-9 gap-4 sm:flex-row sm:gap-4 sm:justify-around items-center text-sm md:text-base">
             <a
               href="https://www.linkedin.com/in/thomas-albuquerque-80412b137/"
               target="_blank"

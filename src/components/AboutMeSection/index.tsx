@@ -23,11 +23,11 @@ export default function AboutMeSection() {
         data-aos-offset={250}>
         {/* Container */}
         <div className="container mx-auto py-14 px-10 sm:px-24 max-w-8xl bg-gradient-to-r from-aBitMoreDarkBlue to-transparent">
-          <h2 className="mx-auto pb-4 text-3xl md:text-4xl font-monoTitle">
+          <h2 className="mx-auto text-3xl md:text-4xl font-monoTitle">
             Sobre mim
           </h2>
           {/* Flex Items*/}
-          <div className="flex flex-col lg:flex-row space-y-8 lg:space-y-0">
+          <div className="flex flex-col lg:flex-row mt-10 space-y-8 lg:space-y-0">
             {/* Menu */}
             <div id="Col Menu" className="text-lg md:text-2xl">
               {subsectionsList.map((subsection, index) => (
