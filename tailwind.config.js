@@ -13,7 +13,7 @@ module.exports = {
         aBitMoreDarkBlue: '#18212c',
         veryDarkBlue: '#0a0f15',
         accentColor: '#0960d1',
-        hoverAccentColor: '#073673',
+        hoverAccentColor: '#064392',
         gray: '#eff9ff',
         hoverGray: '#b9c2c7',
         hoverDisabled: '#868d91',
@@ -25,6 +25,9 @@ module.exports = {
       },
       height: {
         '108': '28rem',
+      },
+      maxWidth: {
+        '8xl': '84rem',
       }
     }, screens: {
       'xsm': '320px',

@@ -21,7 +21,7 @@ export const subsectionsList = [
   },
   {
     title: 'Momento Atual',
-    description: `Completei um curso de Desenvolvimento Web Full Stack na escola OneBitCode, onde aprendi a desenvolver aplicações completas, incluindo banco de dados, backend e frontend.
+    description: `Recentemente completei um curso de Desenvolvimento Web Full Stack na escola OneBitCode, onde aprendi a desenvolver aplicações completas, incluindo banco de dados, backend e frontend.
 
     Mesmo com meu foco inicial de se tornar um programador frontend, praticar estas outras áreas do desenvolvimento Full Stack me ajudou muito a entender uma aplicação web como um todo.
 

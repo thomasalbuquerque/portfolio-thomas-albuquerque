@@ -18,13 +18,19 @@ export default function NavBar() {
           </div>
           {/* Menu Items */}
           <div className="hidden md:flex items-center space-x-12 text-lg lg:mr-11 2xl:mr-36">
-            <a href="#" className="text-gray hover:text-hoverGray duration-150">
+            <a
+              href="#aboutMeSection"
+              className="text-gray hover:text-hoverGray duration-150">
               Sobre mim
             </a>
-            <a href="#" className="text-gray hover:text-hoverGray duration-150">
+            <a
+              href="#portfolioSection"
+              className="text-gray hover:text-hoverGray duration-150">
               Portfólio
             </a>
-            <a href="#" className="text-gray hover:text-hoverGray duration-150">
+            <a
+              href="#contactSection"
+              className="text-gray hover:text-hoverGray duration-150">
               Contato
             </a>
           </div>

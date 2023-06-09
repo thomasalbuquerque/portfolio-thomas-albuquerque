@@ -4,6 +4,9 @@ import HeroSection from '@/components/HeroSection';
 import NavBar from '@/components/NavBar';
 import AboutMeSection from '@/components/AboutMeSection';
 import PortfolioSection from '@/components/PortfolioSection';
+import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
+import BackToTopButton from '@/components/utilities/BackToTopButton';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,6 +28,9 @@ export default function Home() {
         <HeroSection />
         <AboutMeSection />
         <PortfolioSection />
+        <ContactSection />
+        <Footer />
+        <BackToTopButton />
       </main>
     </>
   );
