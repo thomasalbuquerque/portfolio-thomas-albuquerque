@@ -22,7 +22,7 @@ export default function AboutMeSection() {
         data-aos-duration={800}
         data-aos-offset={250}>
         {/* Container */}
-        <div className="container mx-auto px-10 sm:px-20 py-10 max-w-7xl bg-gradient-to-r from-aBitMoreDarkBlue to-transparent">
+        <div className="container mx-auto py-14 px-10 sm:px-24 max-w-8xl bg-gradient-to-r from-aBitMoreDarkBlue to-transparent">
           <h2 className="mx-auto pb-4 text-3xl md:text-4xl font-monoTitle">
             Sobre mim
           </h2>
@@ -56,7 +56,7 @@ export default function AboutMeSection() {
             {/* Description */}
             <div
               id="Col Description"
-              className="text-base md:text-xl font-monoText">
+              className="text-base md:text-lg font-monoText">
               {subsectionsList
                 .find((subsection) => subsection.title === aboutMeSubsection)!
                 .description.split('\n')

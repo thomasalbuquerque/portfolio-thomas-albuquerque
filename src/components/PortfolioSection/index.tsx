@@ -17,7 +17,7 @@ export default function PortfolioSection() {
         data-aos-duration={800}
         data-aos-offset={400}>
         {/* Container */}
-        <div className="container mx-auto px-10 py-24 sm:px-20">
+        <div className="container mx-auto px-10 pt-24 sm:px-20">
           <h2 className="mx-auto py-4 text-3xl md:text-4xl font-monoTitle text-center">
             Portfólio
           </h2>

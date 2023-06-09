@@ -28,9 +28,9 @@ export default function HeroSection() {
               <br />
               <br />
               Desenvolvo aplicações Frontend utilizando ReactJS, NextJS,
-              Typescript, Javascript, Bootstrap e CSS com Sass. Já desenvolvi
-              algumas aplicações Full Stack utilizando ExpressJS e Sequelize
-              para o Backend, entre outras bibliotecas.
+              Typescript, Javascript, Tailwindcss e Sass. Já desenvolvi algumas
+              aplicações Full Stack utilizando ExpressJS e Sequelize para o
+              Backend, com banco de dados Postgres.
               <br />
               <br />
               Abaixo estão mais algumas informações sobre mim e projetos
