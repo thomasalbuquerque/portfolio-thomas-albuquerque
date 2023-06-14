@@ -24,7 +24,7 @@ export default function ContactSection() {
         data-aos="fade-zoom-in"
         data-aos-duration={800}
         data-aos-offset={300}>
-        <div className="container flex flex-col max-w-4xl mx-auto mt-24 px-10 py-14 sm:px-24 text-gray bg-gradient-to-b from-darkBlue to-transparent">
+        <div className="container flex flex-col max-w-4xl mx-auto mt-24 px-10 py-14 sm:px-24 text-gray bg-gradient-to-b from-aBitMoreDarkBlue  to-transparent">
           <div className="font-monoTitle text-3xl md:text-4xl">Contato</div>
           <div className="text-base md:text-xl mt-10 font-monoText">
             Caso considere que eu possa contribuir com seus projetos, por favor
