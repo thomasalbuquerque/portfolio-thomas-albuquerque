@@ -46,7 +46,7 @@ export default function NavBar() {
             id="menu-btn"
             className={clsx(
               `${styles.hamburger} md:hidden focus:outline-none`,
-              mobileMenuOpen && 'open'
+              mobileMenuOpen && `${styles.open}`
             )}
             onClick={handleToggleMenuOpen}>
             <span className={styles.hamburgerTop}></span>
