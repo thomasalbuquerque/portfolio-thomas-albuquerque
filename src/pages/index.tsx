@@ -20,7 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Share:ital,wght@0,400;0,700;1,400&display=swap');
+          url(`https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Share:ital,wght@0,400;0,700;1,400&display=swap`);
         </style>
       </Head>
       <main className="bg-gradient-to-br from-darkBlue to-veryDarkBlue">
