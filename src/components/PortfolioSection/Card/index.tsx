@@ -30,7 +30,7 @@ export default function Card({
       <div
         id="card"
         className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-sm gap-4  h-108 bg-aBitMoreDarkBlue">
-        <div className="h-16 md:h-28 flex flex-col justify-center items-center">
+        <div className="h-16 md:h-28 flex flex-col justify-center items-center drop-shadow-md">
           <img
             src={imgUrl}
             alt={`logo-${title}`}
