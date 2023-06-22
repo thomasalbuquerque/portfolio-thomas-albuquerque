@@ -5,22 +5,22 @@ export default function HeroSection() {
     <>
       <section id="hero" className="text-gray">
         {/* Flex Container */}
-        <div className="container flex flex-col items-center lg:flex-row mt-10 px-6 py-20 lg:py-36 mx-auto space-y-16 lg:space-y-0 ">
+        <div className="flex flex-col items-center lg:flex-row py-20 lg:py-36 mx-auto space-y-16 lg:space-y-0 ">
           {/* Left Item */}
-          <div className="flex md:w-2/5 lg:w-2/5 items-center">
+          <div className="flex xsm:w-3/5 lg:w-2/5 items-center justify-center">
             <img
-              src="/profile-rounded.png"
+              src="/profile-rounded-test-16.png"
               alt="Foto de perfil do desenvolvedor"
               className="w-auto max-h-60 sm:max-h-80 place-self-center"
             />
           </div>
 
           {/* Right Item */}
-          <div className="flex flex-col mb-32 space-y-12 md:w-3/5 lg:w-3/5">
+          <div className="flex flex-col mb-32 space-y-12 md:w-3/5 lg:w-4/5 bg-gradient-to-r from-darkBlue to-aBitMoreDarkBlue lg:px-20 px-8 py-20">
             <h1 className="max-w-xl font-bold text-center text-3xl md:text-5xl lg:text-left font-monoTitle">
               Desenvolvedor Frontend
             </h1>
-            <p className="max-w-4xl text-center lg:text-left font-monoText text-base md:text-xl">
+            <p className="max-w-4xl 2xl:max-w-5xl text-center lg:text-left font-monoText text-base md:text-xl">
               Olá, tudo bem? Me chamo Thomas Albuquerque, e sou um Desenvolvedor
               Frontend que está continuamente estudando, fazendo projetos
               próprios, trabalhando como freelancer e buscando uma oportunidade
