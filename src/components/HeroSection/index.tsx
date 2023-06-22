@@ -9,7 +9,7 @@ export default function HeroSection() {
           {/* Left Item */}
           <div className="flex xsm:w-3/5 lg:w-2/5 items-center justify-center">
             <img
-              src="/profile-rounded-test-16.png"
+              src="/profile-rounded-seated.png"
               alt="Foto de perfil do desenvolvedor"
               className="w-auto max-h-60 sm:max-h-80 place-self-center"
             />
