@@ -37,10 +37,10 @@ export default function Card({
             className="max-h-20 md:max-h-fit"
           />
         </div>
-        <h3 className="font-monoTitle text-lg md:text-2xl pt-3 text-left">
+        <h3 className="font-monoTitle text-lg md:text-2xl pt-3 text-center">
           {title}
         </h3>
-        <p className="font-monoText max-w-xs h-16 md:h-20 text-base md:text-lg">
+        <p className="font-monoText text-center max-w-xs h-16 md:h-20 text-base md:text-lg">
           {description}
         </p>
         <div className="flex flex-wrap justify-center items-center gap-2 w-64 h-20">
