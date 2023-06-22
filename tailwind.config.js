@@ -8,10 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        blue: '#042959',
-        darkBlue: '#1a2430',
-        aBitMoreDarkBlue: '#18212c',
-        veryDarkBlue: '#0a0f15',
+        darkBlue: '#151e2a',
+        aBitMoreDarkBlue: '#10161e',
         accentColor: '#0960d1',
         hoverAccentColor: '#064392',
         gray: '#eff9ff',

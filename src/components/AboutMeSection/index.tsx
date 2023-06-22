@@ -22,7 +22,7 @@ export default function AboutMeSection() {
         data-aos-duration={800}
         data-aos-offset={250}>
         {/* Container */}
-        <div className="container mx-auto py-14 px-10 sm:px-24 max-w-8xl bg-gradient-to-r from-aBitMoreDarkBlue to-transparent">
+        <div className="container mx-auto py-14 px-10 sm:px-24 max-w-8xl bg-gradient-to-r from-darkBlue to-aBitMoreDarkBlue">
           <h2 className="mx-auto text-3xl md:text-4xl font-monoTitle">
             Sobre mim
           </h2>

@@ -23,7 +23,7 @@ export default function Home() {
           url(`https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Share:ital,wght@0,400;0,700;1,400&display=swap`);
         </style>
       </Head>
-      <main className="bg-gradient-to-br from-darkBlue to-veryDarkBlue">
+      <main className="bg-aBitMoreDarkBlue">
         <NavBar />
         <HeroSection />
         <AboutMeSection />

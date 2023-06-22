@@ -12,7 +12,7 @@ export default function NavBar() {
   };
   return (
     <>
-      <nav className="w-screen bg-gradient-to-tl from-aBitMoreDarkBlue to-from-darkBlue p-6">
+      <nav className="w-screen bg-darkBlue p-6">
         {/* Flex container */}
         <div className="flex items-center justify-between font-monoTitle ">
           {/* Logo */}
