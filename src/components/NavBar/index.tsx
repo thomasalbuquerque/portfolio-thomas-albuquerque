@@ -18,7 +18,7 @@ export default function NavBar() {
           {/* Logo */}
           <div className="flex text-2xl lg:ml-11 2xl:ml-36">
             <img
-              src="./thomas-albuquerque-logo.svg"
+              src="./thomas-albuquerque-logo.png"
               className="w-64"
               alt="logo website"
             />
