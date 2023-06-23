@@ -9,7 +9,7 @@ export const subsectionsList = [
     title: 'Formação',
     description: `Sobre minha formação, possuo graduação em computação (Bacharelado em Ciência e Tecnologia), onde aprendi toda a base e fundamentos da computação, como:
     
-    Lógica de programação, estrutura de dados, orientação a objetos, testes de software, entre outros.`,
+    Lógica de programação, estrutura de dados, orientação a objetos, entre outros.`,
   },
   {
     title: 'Experiência',

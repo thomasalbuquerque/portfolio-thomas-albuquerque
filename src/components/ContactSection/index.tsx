@@ -28,7 +28,7 @@ export default function ContactSection() {
           <div className="font-monoTitle text-3xl md:text-4xl">Contato</div>
           <div className="text-base md:text-xl mt-10 font-monoText">
             Caso considere que eu possa contribuir com seus projetos, por favor
-            envie-me uma mensagem no LinkedIn ou no e-mail
+            me envie uma mensagem no LinkedIn ou no e-mail
             thomasalbuquerque@proton.me que estarei à disposição. :)
           </div>
           {/* <div className=""> */}
