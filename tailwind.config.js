@@ -18,8 +18,8 @@ module.exports = {
         transparent: '#18212c27',
       },
       fontFamily: {
-        'monoTitle': ['Share Tech Mono', 'ui-monospace', 'SFMono-Regular'],
-        'monoText': ['Share', 'ui-monospace', 'SFMono-Regular'],
+        monoTitle: ['var(--font-share-tech-mono)', 'ui-monospace', 'SFMono-Regular'],
+        monoText: ['var(--font-share)', 'ui-monospace', 'SFMono-Regular'],
       },
       height: {
         '108': '28rem',
