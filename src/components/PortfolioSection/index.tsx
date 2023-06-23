@@ -24,7 +24,7 @@ export default function PortfolioSection() {
           {/* Flex Items*/}
           <div className="flex flex-col sm:flex-wrap items-center justify-center pt-4 space-y-8 md:gap-4 md:space-y-0 md:flex-row">
             <Card
-              imgUrl="./thomas-albuquerque-logo.svg"
+              imgUrl="./thomas-albuquerque-logo.png"
               title="Thomas Albuquerque"
               description="Desenvolvimento deste site de portfólio."
               hrefPreview=""
