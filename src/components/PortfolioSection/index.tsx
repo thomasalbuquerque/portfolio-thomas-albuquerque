@@ -35,7 +35,7 @@ export default function PortfolioSection() {
               imgUrl="./currency-converter.png"
               title="Currency Converter"
               description="Desenvolvimento Full Stack de uma aplicação de conversão de moedas."
-              hrefPreview="https://currency-converter-frontend-beta.vercel.app/"
+              hrefPreview="https://coincalc-currency-converter.vercel.app/"
               hrefGitHubFrontend="https://github.com/thomasalbuquerque/currency-converter_frontend"
               hrefGitHubBackend="https://github.com/thomasalbuquerque/currency-converter_backend"
             />
