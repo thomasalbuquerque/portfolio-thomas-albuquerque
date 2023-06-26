@@ -3,8 +3,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import { Translation } from '@/helpers/translation';
 
-export default function NavBar() {
+interface props {
+  localeTransitionIndex: string;
+  handleToggleLocale: () => void;
+}
+
+export default function NavBar({
+  localeTransitionIndex,
+  handleToggleLocale,
+}: props) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleToggleMenuOpen = () => {
@@ -28,18 +37,22 @@ export default function NavBar() {
             <a
               href="#aboutMeSection"
               className="text-gray hover:text-hoverGray duration-150">
-              Sobre mim
+              {Translation[localeTransitionIndex].aboutMe}
             </a>
             <a
               href="#portfolioSection"
               className="text-gray hover:text-hoverGray duration-150">
-              Portfólio
+              {Translation[localeTransitionIndex].portfolio}
             </a>
             <a
               href="#contactSection"
               className="text-gray hover:text-hoverGray duration-150">
-              Contato
+              {Translation[localeTransitionIndex].contact}
             </a>
+            <img
+              src={Translation[localeTransitionIndex].flagUrl}
+              className="w-5 cursor-pointer"
+              onClick={handleToggleLocale}></img>
           </div>
           {/* Hamburger Icon */}
           <button
@@ -62,10 +75,16 @@ export default function NavBar() {
               mobileMenuOpen && 'flex',
               !mobileMenuOpen && 'hidden'
             )}>
-            <a href="#aboutMeSection">Sobre Mim</a>
-            <a href="#portfolioSection">Portfólio</a>
-            <a href="#contactSection">Contato</a>
-            <div className="flex gap-4">
+            <a href="#aboutMeSection">
+              {Translation[localeTransitionIndex].aboutMe}
+            </a>
+            <a href="#portfolioSection">
+              {Translation[localeTransitionIndex].portfolio}
+            </a>
+            <a href="#contactSection">
+              {Translation[localeTransitionIndex].contact}
+            </a>
+            <div className="flex flex-wrap gap-4">
               <a
                 href="https://www.linkedin.com/in/thomas-albuquerque-80412b137/"
                 target="_blank">
@@ -75,6 +94,10 @@ export default function NavBar() {
                 <FontAwesomeIcon icon={faGithub} className="h-5" />
               </a>
             </div>
+            <img
+              src={Translation[localeTransitionIndex].flagUrl}
+              className="w-5 cursor-pointer"
+              onClick={handleToggleLocale}></img>
           </div>
         </div>
       </nav>

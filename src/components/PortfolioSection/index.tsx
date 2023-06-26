@@ -2,8 +2,13 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Card from './Card';
+import { Translation } from '@/helpers/translation';
 
-export default function PortfolioSection() {
+interface props {
+  localeTransitionIndex: string;
+}
+
+export default function PortfolioSection({ localeTransitionIndex }: props) {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -19,14 +24,17 @@ export default function PortfolioSection() {
         {/* Container */}
         <div className="container mx-auto px-10 pt-24 sm:px-20">
           <h2 className="mx-auto py-4 text-3xl md:text-4xl font-monoTitle text-center">
-            Portfólio
+            {Translation[localeTransitionIndex].portfolio}
           </h2>
           {/* Flex Items*/}
           <div className="flex flex-col sm:flex-wrap items-center justify-center pt-4 space-y-8 md:gap-4 md:space-y-0 md:flex-row">
             <Card
               imgUrl="./thomas-albuquerque-logo.png"
               title="Thomas Albuquerque"
-              description="Desenvolvimento deste site de portfólio."
+              description={
+                Translation[localeTransitionIndex]
+                  .portfolioThomasAlbuquerqueProjectDescription
+              }
               hrefPreview=""
               hrefGitHubFrontend="https://github.com/thomasalbuquerque/portfolio-thomas-albuquerque"
               hrefGitHubBackend=""
@@ -34,7 +42,10 @@ export default function PortfolioSection() {
             <Card
               imgUrl="./currency-converter.png"
               title="Currency Converter"
-              description="Desenvolvimento Full Stack de uma aplicação de conversão de moedas."
+              description={
+                Translation[localeTransitionIndex]
+                  .portfolioCoinCalcProjectDescription
+              }
               hrefPreview="https://coincalc-currency-converter.vercel.app/"
               hrefGitHubFrontend="https://github.com/thomasalbuquerque/currency-converter_frontend"
               hrefGitHubBackend="https://github.com/thomasalbuquerque/currency-converter_backend"
@@ -42,7 +53,10 @@ export default function PortfolioSection() {
             <Card
               imgUrl="./sicure-seg.png"
               title="Sicure Seguros"
-              description="Desenvolvimento do site de uma corretora de seguros. Segue em desenvolvimento."
+              description={
+                Translation[localeTransitionIndex]
+                  .portfolioSicureProjectDescription
+              }
               hrefPreview=""
               hrefGitHubFrontend=""
               hrefGitHubBackend=""

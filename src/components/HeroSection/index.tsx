@@ -1,6 +1,10 @@
+import { Translation } from '@/helpers/translation';
 import React from 'react';
 
-export default function HeroSection() {
+interface props {
+  localeTransitionIndex: string;
+}
+export default function HeroSection({ localeTransitionIndex }: props) {
   return (
     <>
       <section id="hero" className="text-gray">
@@ -18,25 +22,19 @@ export default function HeroSection() {
           {/* Right Item */}
           <div className="flex flex-col mb-32 space-y-12 md:w-3/5 lg:w-4/5 bg-gradient-to-r from-darkBlue to-aBitMoreDarkBlue lg:px-20 px-8 py-20">
             <h1 className="max-w-xl font-bold text-center text-3xl md:text-5xl lg:text-left font-monoTitle">
-              Desenvolvedor Frontend
+              {Translation[localeTransitionIndex].frontendDeveloper}
             </h1>
-            <p className="max-w-4xl 2xl:max-w-5xl text-center lg:text-left font-monoText text-base md:text-xl">
-              Olá, tudo bem? Me chamo Thomas Albuquerque, e sou um Desenvolvedor
-              Frontend que está continuamente estudando, fazendo projetos
-              próprios, trabalhando como freelancer e buscando uma oportunidade
-              como Desenvolvedor Frontend Júnior.
-              <br />
-              <br />
-              Desenvolvo aplicações Frontend utilizando ReactJS, NextJS,
-              Typescript, Javascript, Tailwindcss e Sass. Já desenvolvi algumas
-              aplicações Full Stack utilizando ExpressJS e Sequelize para o
-              Backend, com banco de dados Postgres.
-              <br />
-              <br />
-              Abaixo estão mais algumas informações sobre mim e projetos
-              realizados. Caso ache que eu possa contruibuir com seus projetos,
-              fico à disposição para uma conversa :{')'}
-            </p>
+            {/* Description */}
+            <div className="max-w-4xl 2xl:max-w-5xl text-center lg:text-left font-monoText text-base md:text-xl">
+              {Translation[localeTransitionIndex].heroSectionDescription
+                .split('\n')
+                .map((line, index) => (
+                  <React.Fragment key={index}>
+                    {line}
+                    <br />
+                  </React.Fragment>
+                ))}
+            </div>
           </div>
         </div>
       </section>

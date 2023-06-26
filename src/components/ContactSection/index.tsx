@@ -4,18 +4,29 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Translation } from '@/helpers/translation';
 
-export default function ContactSection() {
-  const [copyEmail, setCopyEmail] = useState('Copiar E-mail');
+interface props {
+  localeTransitionIndex: string;
+}
+
+export default function ContactSection({ localeTransitionIndex }: props) {
+  const [copyEmail, setCopyEmail] = useState(
+    Translation[localeTransitionIndex].contactCopyEmailButton
+  );
   const handleCopyEmailText = async () => {
-    setCopyEmail('Copiado!');
+    setCopyEmail(Translation[localeTransitionIndex].contactCopyEmailMessage);
     await new Promise((resolve) => setTimeout(resolve, 2000));
-    setCopyEmail('Copiar E-mail');
+    setCopyEmail(Translation[localeTransitionIndex].contactCopyEmailButton);
   };
 
   useEffect(() => {
     AOS.init();
   }, []);
+
+  useEffect(() => {
+    setCopyEmail(Translation[localeTransitionIndex].contactCopyEmailButton);
+  }, [localeTransitionIndex]);
   return (
     <>
       <section
@@ -25,11 +36,11 @@ export default function ContactSection() {
         data-aos-duration={800}
         data-aos-offset={300}>
         <div className="container flex flex-col max-w-4xl mx-auto mt-24 px-10 py-14 sm:px-24 text-gray bg-darkBlue">
-          <div className="font-monoTitle text-3xl md:text-4xl">Contato</div>
+          <div className="font-monoTitle text-3xl md:text-4xl">
+            {Translation[localeTransitionIndex].contact}
+          </div>
           <div className="text-base md:text-xl mt-10 font-monoText">
-            Caso considere que eu possa contribuir com seus projetos, por favor
-            me envie uma mensagem no LinkedIn ou no e-mail
-            thomasalbuquerque@proton.me que estarei à disposição. :)
+            {Translation[localeTransitionIndex].contactDescription}
           </div>
           {/* <div className=""> */}
           <div className="flex flex-col mt-9 gap-4 sm:flex-row sm:gap-4 sm:justify-around items-center text-sm md:text-base">
@@ -38,7 +49,12 @@ export default function ContactSection() {
               target="_blank"
               className="flex flex-colfont-monoText items-center hover:text-hoverGray cursor-pointer">
               <FontAwesomeIcon icon={faLinkedin} className="h-10 pr-4" />
-              <div className="text-center">Acessar perfil</div>
+              <div className="text-center">
+                {
+                  Translation[localeTransitionIndex]
+                    .contactViewLinkedinProfileButton
+                }
+              </div>
             </a>
             <a
               className="flex flex-colfont-monoText items-center hover:text-hoverGray cursor-pointer"
@@ -54,7 +70,9 @@ export default function ContactSection() {
               target="_blank"
               className="flex flex-colfont-monoText items-center hover:text-hoverGray cursor-pointer">
               <FontAwesomeIcon icon={faGithub} className="h-10 pr-4" />
-              <div className="text-center">Acessar GitHub</div>
+              <div className="text-center">
+                {Translation[localeTransitionIndex].contactViewGitHubButton}
+              </div>
             </a>
             {/* </div> */}
           </div>

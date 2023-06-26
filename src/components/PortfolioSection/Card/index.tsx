@@ -11,8 +11,6 @@ interface props {
   hrefGitHubBackend: string;
 }
 
-// const SlideSection = function ({ newestCourses }: props) {
-
 export default function Card({
   imgUrl,
   title,
