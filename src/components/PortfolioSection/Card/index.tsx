@@ -27,7 +27,7 @@ export default function Card({
     <>
       <div
         id="card"
-        className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-sm gap-4  h-108 bg-darkBlue">
+        className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-sm gap-4 h-108 bg-darkBlue font-monoText">
         <div className="h-16 md:h-28 flex flex-col justify-center items-center drop-shadow-md">
           <img
             src={imgUrl}
@@ -45,7 +45,7 @@ export default function Card({
           {hrefPreview ? (
             <a
               href={hrefPreview}
-              className={`px-3 py-1 rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150 ${
+              className={`px-3 py-1 rounded-md border-accentColor border  hover:text-hoverGray hover:border-hoverAccentColor duration-150 ${
                 fullStack ? 'mx-16' : ''
               }`}
               target="_blank">
@@ -54,7 +54,7 @@ export default function Card({
           ) : (
             <a
               href={hrefPreview}
-              className={`px-3 py-1 rounded-md border-accentColor border text-hoverDisabled hover:border-hoverAccentColor duration-150 pointer-events-none ${
+              className={`px-3 py-1 rounded-md border-accentColor border  text-hoverDisabled hover:border-hoverAccentColor duration-150 pointer-events-none ${
                 fullStack ? 'mx-16' : ''
               }`}
               target="_blank">
@@ -64,7 +64,7 @@ export default function Card({
           {hrefGitHubFrontend ? (
             <a
               href={hrefGitHubFrontend}
-              className={`px-3 py-1 rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150 w-[7.5rem] `}
+              className={`px-3 py-1 rounded-md border-accentColor border  hover:text-hoverGray hover:border-hoverAccentColor duration-150 w-[7.5rem] `}
               target="_blank">
               <div className="flex justify-between items-center">
                 <div>Frontend</div>

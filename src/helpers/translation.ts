@@ -35,7 +35,7 @@ export const Translation: TranslationType = {
     profilePicAlt: 'Developer profile picture',
     heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Frontend Developer who is continuously studying, working on personal projects, freelancing, and seeking an opportunity as a Junior Frontend Developer.
 
-    I develop Frontend applications using ReactJS, NextJS, Typescript, Javascript, Tailwindcss, and Sass. I have also developted some Full Stack applications using ExpressJS and Sequelize for the backend, with Postgres database.
+    I develop Frontend applications using React, Next.js, Typescript, Javascript, Tailwindcss, and Sass. I have also developted some Full Stack applications using ExpressJS and Sequelize for the backend, with Postgres database.
     
     Below are some more details about me and projects I have completed. If you think I can contribute to your projects, I am available for a conversation. :)`,
 
@@ -97,7 +97,7 @@ export const Translation: TranslationType = {
     profilePicAlt: 'Foto de perfil do desenvolvedor',
     heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, e sou um Desenvolvedor Frontend que está continuamente estudando, fazendo projetos próprios, trabalhando como freelancer e buscando uma oportunidade como Desenvolvedor Frontend Júnior.
 
-    Desenvolvo aplicações Frontend utilizando ReactJS, NextJS, Typescript, Javascript, Tailwindcss e Sass.Já desenvolvi algumas aplicações Full Stack utilizando ExpressJS e Sequelize para o Backend, com banco de dados Postgres.
+    Desenvolvo aplicações Frontend utilizando React, Next.js, Typescript, Javascript, Tailwindcss e Sass. Já desenvolvi algumas aplicações Full Stack utilizando ExpressJS e Sequelize para o Backend, com banco de dados Postgres.
     
     Abaixo estão mais algumas informações sobre mim e projetos realizados. Caso ache que eu possa contruibuir com seus projetos, fico à disposição para uma conversa. :) `,
 

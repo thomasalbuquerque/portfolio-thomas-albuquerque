@@ -43,7 +43,7 @@ export default function ContactSection({ localeTransitionIndex }: props) {
             {Translation[localeTransitionIndex].contactDescription}
           </div>
           {/* <div className=""> */}
-          <div className="flex flex-col mt-9 gap-4 sm:flex-row sm:gap-4 sm:justify-around items-center text-sm md:text-base">
+          <div className="flex flex-col mt-9 gap-4 sm:flex-row sm:gap-4 sm:justify-around items-center text-sm md:text-base font-monoText">
             <a
               href="https://www.linkedin.com/in/thomas-albuquerque-80412b137/"
               target="_blank"
