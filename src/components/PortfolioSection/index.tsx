@@ -51,6 +51,16 @@ export default function PortfolioSection({ localeTransitionIndex }: props) {
               hrefGitHubBackend="https://github.com/thomasalbuquerque/currency-converter_backend"
             />
             <Card
+              imgUrl="./pipetube-logo.png"
+              title="Pipe Tube"
+              description={
+                Translation[localeTransitionIndex].pipetubeProjectDescription
+              }
+              hrefPreview="https://pipe-tube-one.vercel.app/"
+              hrefGitHubFrontend="https://github.com/thomasalbuquerque/pipe-tube/"
+              hrefGitHubBackend=""
+            />
+            <Card
               imgUrl="./sicure-seg.png"
               title="Sicure Seguros"
               description={

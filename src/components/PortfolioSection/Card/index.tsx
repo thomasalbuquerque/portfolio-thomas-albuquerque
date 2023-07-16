@@ -27,12 +27,12 @@ export default function Card({
     <>
       <div
         id="card"
-        className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-sm gap-4 h-108 bg-darkBlue font-monoText">
-        <div className="h-16 md:h-28 flex flex-col justify-center items-center drop-shadow-md">
+        className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-sm gap-4 h-96 md:h-108 bg-darkBlue font-monoText">
+        <div className="h-16 w-full md:h-28 flex flex-col justify-center items-center drop-shadow-md">
           <img
             src={imgUrl}
             alt={`logo-${title}`}
-            className="max-h-20 md:max-h-fit"
+            className="max-w-full max-h-full"
           />
         </div>
         <h3 className="font-monoTitle text-lg md:text-2xl pt-3 text-center">

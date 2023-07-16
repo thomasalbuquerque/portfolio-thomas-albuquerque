@@ -13,6 +13,7 @@ interface TranslationType {
     portfolioThomasAlbuquerqueProjectDescription: string;
     portfolioCoinCalcProjectDescription: string;
     portfolioSicureProjectDescription: string;
+    pipetubeProjectDescription: string;
     contactDescription: string;
     contactViewLinkedinProfileButton: string;
     contactCopyEmailButton: string;
@@ -77,6 +78,7 @@ export const Translation: TranslationType = {
     portfolioThomasAlbuquerqueProjectDescription: 'Development of this portfolio website.',
     portfolioCoinCalcProjectDescription: 'Full Stack development of a currency conversion application.',
     portfolioSicureProjectDescription: 'Website development for an insurance broker. It is still under development.',
+    pipetubeProjectDescription: 'Personal project of a YouTube-like video platform, to practice my frontend skills.',
     contactDescription: 'If you believe that I can contribute to your projects, please send me a message on LinkedIn or email me at thomasalbuquerque@proton.me. I will be available to assist you. :)',
     contactViewLinkedinProfileButton: 'View Profile',
     contactCopyEmailButton: 'Copy Email',
@@ -139,6 +141,7 @@ export const Translation: TranslationType = {
     portfolioThomasAlbuquerqueProjectDescription: 'Desenvolvimento deste site de portfólio.',
     portfolioCoinCalcProjectDescription: 'Desenvolvimento Full Stack de uma aplicação de conversão de moedas.',
     portfolioSicureProjectDescription: 'Desenvolvimento do site de uma corretora de seguros. Segue em desenvolvimento.',
+    pipetubeProjectDescription: 'Projeto pessoal de uma plataforma de vídeo semelhante ao YouTube, para praticar minhas habilidades frontend.',
     contactViewLinkedinProfileButton: 'Acessar Perfil',
     contactDescription: 'Caso considere que eu possa contribuir com seus projetos, por favor me envie uma mensagem no LinkedIn ou no e-mail thomasalbuquerque@proton.me que estarei à disposição. :)',
     contactCopyEmailButton: 'Copiar Email',
