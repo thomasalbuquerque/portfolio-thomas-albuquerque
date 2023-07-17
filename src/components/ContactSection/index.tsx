@@ -45,7 +45,7 @@ export default function ContactSection({ localeTransitionIndex }: props) {
           {/* <div className=""> */}
           <div className="flex flex-col mt-9 gap-4 sm:flex-row sm:gap-4 sm:justify-around items-center text-sm md:text-base font-monoText">
             <a
-              href="https://www.linkedin.com/in/thomas-albuquerque-80412b137/"
+              href="https://www.linkedin.com/in/thomasalbuquerque/"
               target="_blank"
               className="flex flex-colfont-monoText items-center hover:text-hoverGray cursor-pointer">
               <FontAwesomeIcon icon={faLinkedin} className="h-10 pr-4" />
