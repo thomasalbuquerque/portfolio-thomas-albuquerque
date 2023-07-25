@@ -141,7 +141,7 @@ export const Translation: TranslationType = {
     portfolioThomasAlbuquerqueProjectDescription: 'Desenvolvimento deste site de portfólio.',
     portfolioCoinCalcProjectDescription: 'Desenvolvimento Full Stack de uma aplicação de conversão de moedas.',
     portfolioSicureProjectDescription: 'Desenvolvimento do site de uma corretora de seguros. Segue em desenvolvimento.',
-    pipetubeProjectDescription: 'Projeto pessoal de uma plataforma de vídeo semelhante ao YouTube, para praticar minhas habilidades frontend.',
+    pipetubeProjectDescription: 'Projeto pessoal de uma plataforma de vídeos semelhante ao YouTube, para praticar minhas habilidades frontend.',
     contactViewLinkedinProfileButton: 'Acessar Perfil',
     contactDescription: 'Caso considere que eu possa contribuir com seus projetos, por favor me envie uma mensagem no LinkedIn ou no e-mail thomasalbuquerque@proton.me que estarei à disposição. :)',
     contactCopyEmailButton: 'Copiar Email',
