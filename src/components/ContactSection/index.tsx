@@ -47,7 +47,7 @@ export default function ContactSection({ localeTransitionIndex }: props) {
             <a
               href="https://www.linkedin.com/in/thomasalbuquerque/"
               target="_blank"
-              className="flex flex-colfont-monoText items-center hover:text-hoverGray cursor-pointer">
+              className="flex flex-colfont-monoText items-center hover:text-accentColor duration-150 cursor-pointer">
               <FontAwesomeIcon icon={faLinkedin} className="h-10 pr-4" />
               <div className="text-center">
                 {
@@ -57,7 +57,7 @@ export default function ContactSection({ localeTransitionIndex }: props) {
               </div>
             </a>
             <a
-              className="flex flex-colfont-monoText items-center hover:text-hoverGray cursor-pointer"
+              className="flex flex-colfont-monoText items-center hover:text-accentColor duration-150 cursor-pointer"
               onClick={() => {
                 navigator.clipboard.writeText('thomasalbuquerque@proton.me');
                 handleCopyEmailText();
@@ -68,7 +68,7 @@ export default function ContactSection({ localeTransitionIndex }: props) {
             <a
               href="https://github.com/thomasalbuquerque"
               target="_blank"
-              className="flex flex-colfont-monoText items-center hover:text-hoverGray cursor-pointer">
+              className="flex flex-colfont-monoText items-center hover:text-accentColor duration-150 cursor-pointer">
               <FontAwesomeIcon icon={faGithub} className="h-10 pr-4" />
               <div className="text-center">
                 {Translation[localeTransitionIndex].contactViewGitHubButton}
