@@ -21,7 +21,7 @@ export default function HeroSection({ localeTransitionIndex }: props) {
 
           {/* Right Item */}
           <div className="flex flex-col mb-32 space-y-12 md:w-3/5 lg:w-4/5 bg-gradient-to-r from-darkBlue to-aBitMoreDarkBlue lg:px-20 px-8 py-20">
-            <h1 className="max-w-xl font-bold text-center text-3xl md:text-5xl lg:text-left font-monoTitle">
+            <h1 className="max-w-xl font-bold text-center text-3xl md:text-5xl tracking-tight lg:text-left font-monoTitle">
               {Translation[localeTransitionIndex].frontendDeveloper}
             </h1>
             {/* Description */}

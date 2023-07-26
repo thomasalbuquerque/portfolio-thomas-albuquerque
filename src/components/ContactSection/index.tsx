@@ -35,7 +35,7 @@ export default function ContactSection({ localeTransitionIndex }: props) {
         data-aos="fade-zoom-in"
         data-aos-duration={800}
         data-aos-offset={300}>
-        <div className="container flex flex-col max-w-4xl mx-auto mt-24 px-10 py-14 sm:px-24 text-gray bg-darkBlue">
+        <div className="container flex flex-col max-w-4xl mx-auto mt-20 lg:mt-36 px-10 py-14 sm:px-24 text-gray bg-darkBlue">
           <div className="font-monoTitle text-3xl md:text-4xl">
             {Translation[localeTransitionIndex].contact}
           </div>

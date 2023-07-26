@@ -20,14 +20,14 @@ export default function PortfolioSection({ localeTransitionIndex }: props) {
         className="text-gray"
         data-aos="fade-zoom-in"
         data-aos-duration={800}
-        data-aos-offset={400}>
+        data-aos-offset={200}>
         {/* Container */}
-        <div className="container mx-auto px-10 pt-24 sm:px-20">
-          <h2 className="mx-auto py-4 text-3xl md:text-4xl font-monoTitle text-center">
+        <div className="container mx-auto px-10 sm:px-20">
+          <h2 className="mx-auto text-3xl md:text-4xl font-monoTitle text-center">
             {Translation[localeTransitionIndex].portfolio}
           </h2>
           {/* Flex Items*/}
-          <div className="flex flex-col sm:flex-wrap items-center justify-center pt-4 space-y-8 md:gap-4 md:space-y-0 md:flex-row">
+          <div className="flex flex-col sm:flex-wrap items-center justify-center pt-8 space-y-8 md:gap-4 md:space-y-0 md:flex-row">
             <Card
               imgUrl="./thomas-albuquerque-logo.png"
               title="Thomas Albuquerque"

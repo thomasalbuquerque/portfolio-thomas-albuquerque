@@ -35,14 +35,14 @@ export default function NavBar({
           {/* Menu Items */}
           <div className="hidden md:flex items-center space-x-12 text-lg lg:mr-11 2xl:mr-36">
             <a
-              href="#aboutMeSection"
-              className="text-gray hover:text-hoverGray duration-150">
-              {Translation[localeTransitionIndex].aboutMe}
-            </a>
-            <a
               href="#portfolioSection"
               className="text-gray hover:text-hoverGray duration-150">
               {Translation[localeTransitionIndex].portfolio}
+            </a>
+            <a
+              href="#aboutMeSection"
+              className="text-gray hover:text-hoverGray duration-150">
+              {Translation[localeTransitionIndex].aboutMe}
             </a>
             <a
               href="#contactSection"
@@ -75,11 +75,11 @@ export default function NavBar({
               mobileMenuOpen && 'flex',
               !mobileMenuOpen && 'hidden'
             )}>
-            <a href="#aboutMeSection">
-              {Translation[localeTransitionIndex].aboutMe}
-            </a>
             <a href="#portfolioSection">
               {Translation[localeTransitionIndex].portfolio}
+            </a>
+            <a href="#aboutMeSection">
+              {Translation[localeTransitionIndex].aboutMe}
             </a>
             <a href="#contactSection">
               {Translation[localeTransitionIndex].contact}

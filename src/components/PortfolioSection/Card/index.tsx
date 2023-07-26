@@ -45,7 +45,7 @@ export default function Card({
           {hrefPreview ? (
             <a
               href={hrefPreview}
-              className={`px-3 py-1 rounded-md border-hoverAccentColor border  hover:text-darkBlue hover:border-accentColor duration-150 bg-accentColor ${
+              className={`px-3 py-1 rounded-md border-accentColor border  hover:text-hoverGray   duration-150 bg-accentColor hover:bg-hoverAccentColor ${
                 fullStack ? 'mx-16' : ''
               }`}
               target="_blank">

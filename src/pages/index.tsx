@@ -61,8 +61,8 @@ export default function Home() {
           handleToggleLocale={handleToggleLocale}
         />
         <HeroSection localeTransitionIndex={localeTransitionIndex} />
-        <AboutMeSection localeTransitionIndex={localeTransitionIndex} />
         <PortfolioSection localeTransitionIndex={localeTransitionIndex} />
+        <AboutMeSection localeTransitionIndex={localeTransitionIndex} />
         <ContactSection localeTransitionIndex={localeTransitionIndex} />
         <Footer />
         <BackToTopButton localeTransitionIndex={localeTransitionIndex} />

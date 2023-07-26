@@ -26,7 +26,7 @@ export default function AboutMeSection({ localeTransitionIndex }: props) {
         data-aos-duration={800}
         data-aos-offset={250}>
         {/* Container */}
-        <div className="container mx-auto py-14 px-10 sm:px-24 max-w-8xl bg-gradient-to-r from-darkBlue to-aBitMoreDarkBlue">
+        <div className="container mx-auto mt-20 lg:mt-36 py-14 px-10 sm:px-24 max-w-8xl bg-gradient-to-r from-darkBlue to-aBitMoreDarkBlue">
           <h2 className="mx-auto text-3xl md:text-4xl font-monoTitle">
             {Translation[localeTransitionIndex].aboutMe}
           </h2>
