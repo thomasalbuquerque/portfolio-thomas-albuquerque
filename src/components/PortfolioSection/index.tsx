@@ -67,8 +67,8 @@ export default function PortfolioSection({ localeTransitionIndex }: props) {
                 Translation[localeTransitionIndex]
                   .portfolioSicureProjectDescription
               }
-              hrefPreview=""
-              hrefGitHubFrontend=""
+              hrefPreview="https://sicureseguros.com.br/"
+              hrefGitHubFrontend="https://github.com/thomasalbuquerque/sicure-seguros"
               hrefGitHubBackend=""
             />
           </div>
