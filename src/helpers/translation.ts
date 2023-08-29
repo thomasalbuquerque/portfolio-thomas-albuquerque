@@ -33,7 +33,7 @@ export const Translation: TranslationType = {
         aboutMe: "About Me",
         portfolio: "Portfolio",
         contact: "Contact",
-        frontendDeveloper: "Frontend Developer",
+        frontendDeveloper: "Backend Developer",
         profilePicAlt: "Developer profile picture",
         heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Backend Developer who is constantly studying, working on personal projects, and working as a Junior Backend Developer at Astro Cash.
 
