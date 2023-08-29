@@ -62,16 +62,14 @@ export const Translation: TranslationType = {
 
         Furthermore, I have experienced working on team projects, and I have even led some of them. It was common for me to manage delivery schedules using a methodology similar to Scrum.
         
-        Although it is a different area of programming, I believe that these experiences will help me in this new field I am transitioning to, which is Web Development.`,
+        Although it is a different area of programming, I believe that these experiences will help me transition to Web Development.`,
             },
             {
                 id: 4,
                 title: "Current Status",
                 description: `Recently, I completed a Full Stack Web Development course at OneBitCode school, where I learned to develop complete applications, including databases, backend, and frontend.
 
-        Even though my initial focus was to become a frontend developer, practicing these other areas of Full Stack development has greatly helped me in understanding a web application as a whole.
-        
-        Currently, I continue to work on personal projects and projects for clients, with the goal of practicing, learning more, and gaining experience.`,
+        While making personal projects and for some freelancer clients, I got a job as a Junior Backend Developer at Astro Cash, where I am currently working.`,
             },
         ],
 
@@ -135,9 +133,7 @@ export const Translation: TranslationType = {
                 title: "Momento Atual",
                 description: `Recentemente completei um curso de Desenvolvimento Web Full Stack na escola OneBitCode, onde aprendi a desenvolver aplicações completas, incluindo banco de dados, backend e frontend.
     
-        Mesmo com meu foco inicial de se tornar um programador frontend, praticar estas outras áreas do desenvolvimento Full Stack me ajudou muito a entender uma aplicação web como um todo.
-    
-        Atualmente sigo desenvolvendo projetos pessoais e para clientes, com o foco de praticar, aprender mais e adquirir experiência.`,
+                Enquanto fazia projetos pessoais e para alguns clientes freelancers, consegui um emprego como desenvolvedor de back-end júnior na Astro Cash, onde estou trabalhando atualmente.`,
             },
         ],
 
