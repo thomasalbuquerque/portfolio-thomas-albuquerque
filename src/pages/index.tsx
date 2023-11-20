@@ -27,9 +27,7 @@ const share_tech_mono = Share_Tech_Mono({
 export default function Home() {
   const router = useRouter();
   const { locale } = router;
-  const [localeTransitionIndex, setLocaleTransitionIndex] = useState(
-    locale == 'pt-BR' ? 'ptBR' : 'enUS'
-  );
+  const [localeTransitionIndex, setLocaleTransitionIndex] = useState(locale == 'pt-BR' ? 'ptBR' : 'enUS');
   const handleToggleLocale = () => {
     const { pathname, asPath, query } = router;
     switch (locale) {
@@ -47,19 +45,12 @@ export default function Home() {
     <>
       <Head>
         <title>{Translation[localeTransitionIndex].websiteTitle}</title>
-        <meta
-          name="description"
-          content={Translation[localeTransitionIndex].websiteDescriptionContent}
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name='description' content={Translation[localeTransitionIndex].websiteDescriptionContent} />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main
-        className={`bg-aBitMoreDarkBlue ${share.variable} ${share_tech_mono.variable}`}>
-        <NavBar
-          localeTransitionIndex={localeTransitionIndex}
-          handleToggleLocale={handleToggleLocale}
-        />
+      <main className={`bg-aBitMoreDarkBlue ${share.variable} ${share_tech_mono.variable}`}>
+        <NavBar localeTransitionIndex={localeTransitionIndex} handleToggleLocale={handleToggleLocale} />
         <HeroSection localeTransitionIndex={localeTransitionIndex} />
         <PortfolioSection localeTransitionIndex={localeTransitionIndex} />
         <AboutMeSection localeTransitionIndex={localeTransitionIndex} />

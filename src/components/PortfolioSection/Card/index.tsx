@@ -11,64 +11,50 @@ interface props {
   hrefGitHubBackend: string;
 }
 
-export default function Card({
-  imgUrl,
-  title,
-  description,
-  hrefPreview,
-  hrefGitHubFrontend,
-  hrefGitHubBackend,
-}: props) {
+export default function Card({ imgUrl, title, description, hrefPreview, hrefGitHubFrontend, hrefGitHubBackend }: props) {
   let fullStack = false;
   if (hrefGitHubFrontend && hrefGitHubBackend) {
     fullStack = true;
   }
   return (
     <>
-      <div
-        id="card"
-        className="flex flex-col justify-between sm:items-center px-3 xsm:px-9 py-10 max-w-sm gap-4 h-96 md:h-108 bg-darkBlue font-monoText">
-        <div className="h-16 w-full md:h-28 flex flex-col justify-center items-center drop-shadow-md">
-          <img
-            src={imgUrl}
-            alt={`logo-${title}`}
-            className="max-w-full max-h-full"
-          />
+      <div id='card' className='flex h-96 max-w-sm flex-col justify-between gap-4 bg-darkBlue px-3 py-10 font-monoText xsm:px-9 sm:items-center md:h-108'>
+        <div className='flex h-16 w-full flex-col items-center justify-center drop-shadow-md md:h-28'>
+          <img src={imgUrl} alt={`logo-${title}`} className='max-h-full max-w-full' />
         </div>
-        <h3 className="font-monoTitle text-lg md:text-2xl pt-3 text-center">
-          {title}
-        </h3>
-        <p className="font-monoText text-center max-w-xs h-16 md:h-20 text-base md:text-lg">
-          {description}
-        </p>
-        <div className="flex flex-wrap justify-center items-center gap-2 w-64 h-20">
+        <h3 className='pt-3 text-center font-monoTitle text-lg md:text-2xl'>{title}</h3>
+        <p className='h-16 max-w-xs text-center font-monoText text-base md:h-20 md:text-lg'>{description}</p>
+        <div className='flex h-20 w-64 flex-wrap items-center justify-center gap-2'>
           {hrefPreview ? (
             <a
               href={hrefPreview}
-              className={`px-3 py-1 rounded-md border-accentColor border  hover:text-hoverGray   duration-150 bg-accentColor hover:bg-hoverAccentColor ${
+              className={`rounded-md border border-accentColor bg-accentColor px-3  py-1   duration-150 hover:bg-hoverAccentColor hover:text-hoverGray ${
                 fullStack ? 'mx-16' : ''
               }`}
-              target="_blank">
+              target='_blank'
+            >
               Preview
             </a>
           ) : (
             <a
               href={hrefPreview}
-              className={`px-3 py-1 rounded-md border-accentColor border  text-hoverDisabled hover:border-hoverAccentColor duration-150 pointer-events-none ${
+              className={`pointer-events-none rounded-md border border-accentColor px-3  py-1 text-hoverDisabled duration-150 hover:border-hoverAccentColor ${
                 fullStack ? 'mx-16' : ''
               }`}
-              target="_blank">
+              target='_blank'
+            >
               Preview
             </a>
           )}
           {hrefGitHubFrontend ? (
             <a
               href={hrefGitHubFrontend}
-              className={`px-3 py-1 rounded-md border-accentColor border  hover:text-hoverGray hover:border-hoverAccentColor duration-150 w-[7.5rem] `}
-              target="_blank">
-              <div className="flex justify-between items-center">
+              className={`w-[7.5rem] rounded-md border border-accentColor px-3  py-1 duration-150 hover:border-hoverAccentColor hover:text-hoverGray `}
+              target='_blank'
+            >
+              <div className='flex items-center justify-between'>
                 <div>Frontend</div>
-                <FontAwesomeIcon icon={faGithub} className="h-4" />
+                <FontAwesomeIcon icon={faGithub} className='h-4' />
               </div>
             </a>
           ) : (
@@ -77,11 +63,12 @@ export default function Card({
           {hrefGitHubBackend ? (
             <a
               href={hrefGitHubBackend}
-              className="px-3 py-1  rounded-md border-accentColor border hover:text-hoverGray hover:border-hoverAccentColor duration-150 w-[7.5rem]"
-              target="_blank">
-              <div className="flex justify-center gap-2 items-center">
+              className='w-[7.5rem] rounded-md  border border-accentColor px-3 py-1 duration-150 hover:border-hoverAccentColor hover:text-hoverGray'
+              target='_blank'
+            >
+              <div className='flex items-center justify-center gap-2'>
                 <div>Backend</div>
-                <FontAwesomeIcon icon={faGithub} className="h-4" />
+                <FontAwesomeIcon icon={faGithub} className='h-4' />
               </div>
             </a>
           ) : (

@@ -37,18 +37,15 @@ export default function BackToTopButton({ localeTransitionIndex }: props) {
 
   return (
     <button
-      className={`fixed right-4 bottom-4 p-2 rounded-full bg-gray-500 text-hoverDisabled ${
+      className={`bg-gray-500 fixed bottom-4 right-4 rounded-full p-2 text-hoverDisabled ${
         isVisible ? 'visible opacity-100' : 'invisible opacity-0'
       } transition-opacity duration-500`}
-      onClick={scrollToTop}>
-      <div className="flex flex-col items-center justify-center">
-        <FontAwesomeIcon icon={faAngleUp} className="h-3 md:h-4 -mb-0.5" />
-        <div className="text-[0.5rem] -mb-1 md:text-[0.6rem]">
-          {Translation[localeTransitionIndex].backToTopBack}
-        </div>
-        <div className="text-[0.5rem] md:text-[0.6rem]">
-          {Translation[localeTransitionIndex].backToTopToTop}
-        </div>
+      onClick={scrollToTop}
+    >
+      <div className='flex flex-col items-center justify-center'>
+        <FontAwesomeIcon icon={faAngleUp} className='-mb-0.5 h-3 md:h-4' />
+        <div className='-mb-1 text-[0.5rem] md:text-[0.6rem]'>{Translation[localeTransitionIndex].backToTopBack}</div>
+        <div className='text-[0.5rem] md:text-[0.6rem]'>{Translation[localeTransitionIndex].backToTopToTop}</div>
       </div>
     </button>
   );
