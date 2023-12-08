@@ -36,7 +36,7 @@ export const Translation: TranslationType = {
     profilePicAlt: 'Developer profile picture',
     heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Backend Developer who is constantly studying, working on personal projects, and working as a Junior Backend Developer at Astro Cash.
 
-        I develop Backend applications using Node.js, Typescript, MongoDB, Sequelize, Express, PostgreSQL, among others. I have also developed some Frontend applications using React.js, Next.js, Typescript, Tailwindcss, and Sass.
+        I develop Backend applications using Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, among others. I have also developed some Frontend applications using React.js, Next.js, Typescript, Tailwindcss, and Sass.
     `,
 
     aboutMeTexts: [
@@ -96,7 +96,7 @@ export const Translation: TranslationType = {
     profilePicAlt: 'Foto de perfil do desenvolvedor',
     heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, e sou um Desenvolvedor Backend que está continuamente estudando, fazendo projetos próprios e trabalhando como Desenvolvedor Backend Júnior na Astro Cash.
 
-    Desenvolvo aplicações Backend utilizando Node.js, Typescript, MongoDB, Sequelize, Express, PostgreSQL, entre outras. Já desenvolvi algumas aplicações Frontend utilizando React.js, Next.js, Typescript, Tailwindcss e Sass.`,
+    Desenvolvo aplicações Backend utilizando Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, entre outras. Já desenvolvi algumas aplicações Frontend utilizando React.js, Next.js, Typescript, Tailwindcss e Sass.`,
 
     aboutMeTexts: [
       {
