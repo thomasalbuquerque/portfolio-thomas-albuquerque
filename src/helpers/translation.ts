@@ -14,6 +14,7 @@ interface TranslationType {
     portfolioCoinCalcProjectDescription: string;
     portfolioSicureProjectDescription: string;
     pipetubeProjectDescription: string;
+    portfolioListenSongsProjectDescription: string;
     contactDescription: string;
     contactViewLinkedinProfileButton: string;
     contactCopyEmailButton: string;
@@ -74,6 +75,7 @@ export const Translation: TranslationType = {
     portfolioCoinCalcProjectDescription: 'Full Stack development of a currency conversion application.',
     portfolioSicureProjectDescription: 'Website development for an insurance broker. It is still under development.',
     pipetubeProjectDescription: 'Personal project of a YouTube-like video platform, to practice my frontend skills.',
+    portfolioListenSongsProjectDescription: 'A complete API built with NestJS that I developted at XTHub, but simplified and anonymized.',
     contactDescription:
       'If you believe that I can contribute to your projects, please send me a message on LinkedIn or email me at thomasalbuquerque@proton.me. I will be available to assist you. :)',
     contactViewLinkedinProfileButton: 'View Profile',
@@ -131,6 +133,7 @@ export const Translation: TranslationType = {
     portfolioCoinCalcProjectDescription: 'Desenvolvimento Full Stack de uma aplicação de conversão de moedas.',
     portfolioSicureProjectDescription: 'Desenvolvimento do site de uma corretora de seguros. Segue em desenvolvimento.',
     pipetubeProjectDescription: 'Projeto pessoal de uma plataforma de vídeos semelhante ao YouTube, para praticar minhas habilidades frontend.',
+    portfolioListenSongsProjectDescription: 'Uma API completa feita com NestJS desenvolvida em meu trabalho na XTHub - mas simplificada e anonimizada.',
     contactViewLinkedinProfileButton: 'Acessar Perfil',
     contactDescription:
       'Caso considere que eu possa contribuir com seus projetos, por favor me envie uma mensagem no LinkedIn ou no e-mail thomasalbuquerque@proton.me que estarei à disposição. :)',

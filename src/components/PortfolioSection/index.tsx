@@ -53,6 +53,14 @@ export default function PortfolioSection({ localeTransitionIndex }: props) {
               hrefGitHubFrontend='https://github.com/thomasalbuquerque/sicure-seguros'
               hrefGitHubBackend=''
             />
+            <Card
+              imgUrl='./listen-songs-logo.png'
+              title='Listen Songs Backend'
+              description={Translation[localeTransitionIndex].portfolioListenSongsProjectDescription}
+              hrefPreview=''
+              hrefGitHubFrontend=''
+              hrefGitHubBackend='https://github.com/thomasalbuquerque/listen-songs-backend/'
+            />
           </div>
         </div>
       </section>
