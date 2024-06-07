@@ -34,9 +34,9 @@ export const Translation: TranslationType = {
     contact: 'Contact',
     frontendDeveloper: 'Backend Developer',
     profilePicAlt: 'Developer profile picture',
-    heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Backend Developer who is constantly studying, working on personal projects, and working as a Junior Backend Developer at Astro Cash.
-
-        I develop Backend applications using Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, among others. I have also developed some Frontend applications using React.js, Next.js, Typescript, Tailwindcss, and Sass.
+    heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Backend Developer who is constantly studying, working on personal projects, and working as a Junior Backend Developer at XTHub.
+    
+    I develop Backend applications using Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, among others. I have also developed some Frontend applications using React.js, Next.js, Typescript, Tailwindcss, and Sass.
     `,
 
     aboutMeTexts: [
@@ -57,18 +57,16 @@ export const Translation: TranslationType = {
       {
         id: 3,
         title: 'Experience',
-        description: `I have programming experience within the marketing field, where part of my job involved manipulating HTML emails, performing code optimizations, and preparing audiences using SQL language.
-
-        Furthermore, I have experienced working on team projects, and I have even led some of them. It was common for me to manage delivery schedules using a methodology similar to Scrum.
+        description: `I have programming experience within Marketing, and it was part of my job to manipulate email HTMLs and prepare audiences using SQL language.
         
-        Although it is a different area of programming, I believe that these experiences will help me transition to Web Development.`,
+        I also have experience as a Junior Backend Developer at XTHub, where I develop and maintain APIs and microservices in Node.js, Typescript, MongoDB, Prisma, Express, and PostgreSQL. In personal and freelance projects, I have developed frontend applications using Next.js.
+        
+        Other technologies I frequently work with include AWS (EC2, S3, RDS), Docker, and RabbitMQ.`,
       },
       {
         id: 4,
         title: 'Current Status',
-        description: `Recently, I completed a Full Stack Web Development course at OneBitCode school, where I learned to develop complete applications, including databases, backend, and frontend.
-
-        While making personal projects and for some freelancer clients, I got a job as a Junior Backend Developer at Astro Cash, where I am currently working.`,
+        description: `Currently, I am working as a Junior Backend Developer at XTHub.`,
       },
     ],
 
@@ -94,7 +92,7 @@ export const Translation: TranslationType = {
     contact: 'Contato',
     frontendDeveloper: 'Desenvolvedor Backend',
     profilePicAlt: 'Foto de perfil do desenvolvedor',
-    heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, e sou um Desenvolvedor Backend que está continuamente estudando, fazendo projetos próprios e trabalhando como Desenvolvedor Backend Júnior na Astro Cash.
+    heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, e sou um Desenvolvedor Backend que está continuamente estudando, fazendo projetos próprios e trabalhando como Desenvolvedor Backend Júnior na XTHub.
 
     Desenvolvo aplicações Backend utilizando Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, entre outras. Já desenvolvi algumas aplicações Frontend utilizando React.js, Next.js, Typescript, Tailwindcss e Sass.`,
 
@@ -118,16 +116,14 @@ export const Translation: TranslationType = {
         title: 'Experiência',
         description: `Possuo experiência de programação dentro do Marketing, e era parte do meu trabalho manipular html’s de emails, fazer dinamizações no código e preparar audiências utilizando a linguagem SQL.
     
-        Além disso, vivenciei projetos em equipe, tendo liderado alguns deles, e era comum eu fazer o gerenciamento das pautas de entrega em um modelo parecido com o Scrum.
+        Possuo também experiência como Desenvolvedor Backend Júnior na XTHub, onde desenvolvo e mantenho API's e microsserviços em Node.js, Typescript, MongoDB, Prisma, Express e PostgreSQL. Em projetos próprios e freelancers, já desenvolvi aplicações frontend utilizando Next.js.
         
-        Mesmo sendo outra área da programação, acredito que estas vivências irão me ajudar nesta nova área para a qual estou migrando, que é o Desenvolvimento Web.`,
+        Outras tecnologias que mexo com frequência: AWS (EC2, S3, RDS), Docker e RabbitMq.`,
       },
       {
         id: 4,
         title: 'Momento Atual',
-        description: `Recentemente completei um curso de Desenvolvimento Web Full Stack na escola OneBitCode, onde aprendi a desenvolver aplicações completas, incluindo banco de dados, backend e frontend.
-    
-                Enquanto fazia projetos pessoais e para alguns clientes freelancers, consegui um emprego como desenvolvedor de back-end júnior na Astro Cash, onde estou trabalhando atualmente.`,
+        description: `Atualmente trabalho como Desenvolvedor Backend Júnior na XTHub.`,
       },
     ],
 
