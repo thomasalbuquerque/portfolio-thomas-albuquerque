@@ -35,9 +35,9 @@ export const Translation: TranslationType = {
     contact: 'Contact',
     frontendDeveloper: 'Backend Developer',
     profilePicAlt: 'Developer profile picture',
-    heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Backend Developer who is constantly studying, working on personal projects, and working as a Junior Backend Developer at XTHub.
+    heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Backend Developer who is constantly studying, working on personal projects, and working as a Backend Developer at InfinityTec.
     
-    I develop Backend applications using Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, among others. I have also developed some Frontend applications using React.js, Next.js, Typescript, Tailwindcss, and Sass.
+    I develop Backend applications using Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, among others. I have also developed some Frontend applications using React.js, Next.js, and Tailwindcss.
     `,
 
     aboutMeTexts: [
@@ -60,14 +60,14 @@ export const Translation: TranslationType = {
         title: 'Experience',
         description: `I have programming experience within Marketing, and it was part of my job to manipulate email HTMLs and prepare audiences using SQL language.
         
-        I also have experience as a Junior Backend Developer at XTHub, where I develop and maintain APIs and microservices in Node.js, Typescript, MongoDB, Prisma, Express, and PostgreSQL. In personal and freelance projects, I have developed frontend applications using Next.js.
+        I also have experience as a Backend Developer, where I develop and maintain APIs and microservices in Node.js, Typescript, NestJS, Prisma, Express, and PostgreSQL. In personal and freelance projects, I have developed frontend applications using Next.js.
         
-        Other technologies I frequently work with include AWS (EC2, S3, RDS), Docker, and RabbitMQ.`,
+        Other technologies I frequently work with include AWS (EC2, S3, RDS), Docker, and Bull.`,
       },
       {
         id: 4,
         title: 'Current Status',
-        description: `Currently, I am working as a Junior Backend Developer at XTHub.`,
+        description: `Currently, I am working as a Backend Developer at InfinityTec.`,
       },
     ],
 
@@ -75,7 +75,7 @@ export const Translation: TranslationType = {
     portfolioCoinCalcProjectDescription: 'Full Stack development of a currency conversion application.',
     portfolioSicureProjectDescription: 'Website development for an insurance broker. It is still under development.',
     pipetubeProjectDescription: 'Personal project of a YouTube-like video platform, to practice my frontend skills.',
-    portfolioListenSongsProjectDescription: 'A complete API built with NestJS that I developted at XTHub, but simplified and anonymized.',
+    portfolioListenSongsProjectDescription: 'A complete API built with NestJS that I developted at a previous job, but simplified and anonymized.',
     contactDescription:
       'If you believe that I can contribute to your projects, please send me a message on LinkedIn or email me at thomasalbuquerque@proton.me. I will be available to assist you. :)',
     contactViewLinkedinProfileButton: 'View Profile',
@@ -94,9 +94,9 @@ export const Translation: TranslationType = {
     contact: 'Contato',
     frontendDeveloper: 'Desenvolvedor Backend',
     profilePicAlt: 'Foto de perfil do desenvolvedor',
-    heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, e sou um Desenvolvedor Backend que está continuamente estudando, fazendo projetos próprios e trabalhando como Desenvolvedor Backend Júnior na XTHub.
+    heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, sou Desenvolvedor Backend e estou constantemente estudando, trabalhando em projetos pessoais e atuando como Desenvolvedor Backend na InfinityTec.
 
-    Desenvolvo aplicações Backend utilizando Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, entre outras. Já desenvolvi algumas aplicações Frontend utilizando React.js, Next.js, Typescript, Tailwindcss e Sass.`,
+    Desenvolvo aplicações Backend utilizando Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, entre outros. Também já desenvolvi algumas aplicações Frontend utilizando React.js, Next.js e Tailwindcss.`,
 
     aboutMeTexts: [
       {
@@ -118,14 +118,14 @@ export const Translation: TranslationType = {
         title: 'Experiência',
         description: `Possuo experiência de programação dentro do Marketing, e era parte do meu trabalho manipular html’s de emails, fazer dinamizações no código e preparar audiências utilizando a linguagem SQL.
     
-        Possuo também experiência como Desenvolvedor Backend Júnior na XTHub, onde desenvolvo e mantenho API's e microsserviços em Node.js, Typescript, MongoDB, Prisma, Express e PostgreSQL. Em projetos próprios e freelancers, já desenvolvi aplicações frontend utilizando Next.js.
+        Possuo também experiência como Desenvolvedor Backend, onde desenvolvo e mantenho API's e microsserviços em Node.js, Typescript, NestJS, Prisma, Express e PostgreSQL. Em projetos próprios e freelancers, já desenvolvi aplicações frontend utilizando Next.js.
         
-        Outras tecnologias que mexo com frequência: AWS (EC2, S3, RDS), Docker e RabbitMq.`,
+        Outras tecnologias que mexo com frequência: AWS (EC2, S3, RDS), Docker e Bull.`,
       },
       {
         id: 4,
         title: 'Momento Atual',
-        description: `Atualmente trabalho como Desenvolvedor Backend Júnior na XTHub.`,
+        description: `Atualmente trabalho como Desenvolvedor Backend Júnior na InfinityTec.`,
       },
     ],
 
@@ -133,7 +133,7 @@ export const Translation: TranslationType = {
     portfolioCoinCalcProjectDescription: 'Desenvolvimento Full Stack de uma aplicação de conversão de moedas.',
     portfolioSicureProjectDescription: 'Desenvolvimento do site de uma corretora de seguros. Segue em desenvolvimento.',
     pipetubeProjectDescription: 'Projeto pessoal de uma plataforma de vídeos semelhante ao YouTube, para praticar minhas habilidades frontend.',
-    portfolioListenSongsProjectDescription: 'Uma API completa feita com NestJS desenvolvida em meu trabalho na XTHub - mas simplificada e anonimizada.',
+    portfolioListenSongsProjectDescription: 'Uma API completa feita com NestJS desenvolvida em um emprego anterior - mas simplificada e anonimizada.',
     contactViewLinkedinProfileButton: 'Acessar Perfil',
     contactDescription:
       'Caso considere que eu possa contribuir com seus projetos, por favor me envie uma mensagem no LinkedIn ou no e-mail thomasalbuquerque@proton.me que estarei à disposição. :)',
