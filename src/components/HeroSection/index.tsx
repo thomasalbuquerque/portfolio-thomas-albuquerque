@@ -12,7 +12,7 @@ export default function HeroSection({ localeTransitionIndex }: props) {
         <div className='mx-auto flex flex-col items-center space-y-16 py-20 lg:flex-row lg:space-y-0 lg:py-36 '>
           {/* Left Item */}
           <div className='flex items-center justify-center xsm:w-3/5 lg:w-2/5'>
-            <img src='/profile-picture.png' alt='Foto de perfil do desenvolvedor' className='max-h-60 w-auto place-self-center sm:max-h-80' />
+            <img src='/profile-picture.webp' alt='Foto de perfil do desenvolvedor' className='max-h-60 w-auto place-self-center sm:max-h-80' />
           </div>
 
           {/* Right Item */}
