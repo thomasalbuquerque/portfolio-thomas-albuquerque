@@ -27,15 +27,15 @@ interface TranslationType {
 
 export const Translation: TranslationType = {
   enUS: {
-    websiteTitle: 'Thomas Albuquerque Portfolio',
+    websiteTitle: "Thomas Albuquerque's Portfolio",
     websiteDescriptionContent: 'Portfolio site for a backend web developer named Thomas Albuquerque',
     flagUrl: './USflag.png',
     aboutMe: 'About Me',
     portfolio: 'Portfolio',
     contact: 'Contact',
-    frontendDeveloper: 'Backend Developer',
+    frontendDeveloper: 'Software Engineer',
     profilePicAlt: 'Developer profile picture',
-    heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Backend Developer who is constantly studying, working on personal projects, and working as a Backend Developer at InfinityTec.
+    heroSectionDescription: `Hello, how are you? My name is Thomas Albuquerque, and I am a Software Engineer who is constantly studying, developing personal projects, and working at UPBET.
     
     I develop Backend applications using Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, among others. I have also developed some Frontend applications using React.js, Next.js, and Tailwindcss.
     `,
@@ -62,12 +62,12 @@ export const Translation: TranslationType = {
         
         I also have experience as a Backend Developer, where I develop and maintain APIs and microservices in Node.js, Typescript, NestJS, Prisma, Express, and PostgreSQL. In personal and freelance projects, I have developed frontend applications using Next.js.
         
-        Other technologies I frequently work with include AWS (EC2, S3, RDS), Docker, and Bull.`,
+        Other technologies I frequently work with include AWS (EC2, S3, RDS), and Docker.`,
       },
       {
         id: 4,
         title: 'Current Status',
-        description: `Currently, I am working as a Backend Developer at InfinityTec.`,
+        description: `Currently, I am working as a Software Engineer at UPBET.`,
       },
     ],
 
@@ -77,7 +77,7 @@ export const Translation: TranslationType = {
     pipetubeProjectDescription: 'Personal project of a YouTube-like video platform, to practice my frontend skills.',
     portfolioListenSongsProjectDescription: 'A complete API built with NestJS that I developted at a previous job, but simplified and anonymized.',
     contactDescription:
-      'If you believe that I can contribute to your projects, please send me a message on LinkedIn or email me at thomasalbuquerque@proton.me. I will be available to assist you. :)',
+      'If you think I can contribute to your projects, please send me a message on LinkedIn or email me at tealbthomas@gmail.com. I will be happy to help.',
     contactViewLinkedinProfileButton: 'View Profile',
     contactCopyEmailButton: 'Copy Email',
     contactCopyEmailMessage: 'Copied!',
@@ -92,9 +92,9 @@ export const Translation: TranslationType = {
     aboutMe: 'Sobre Mim',
     portfolio: 'Portfólio',
     contact: 'Contato',
-    frontendDeveloper: 'Desenvolvedor Backend',
+    frontendDeveloper: 'Engenheiro de Software',
     profilePicAlt: 'Foto de perfil do desenvolvedor',
-    heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, sou Desenvolvedor Backend e estou constantemente estudando, trabalhando em projetos pessoais e atuando como Desenvolvedor Backend na InfinityTec.
+    heroSectionDescription: `Olá, tudo bem? Me chamo Thomas Albuquerque, sou Engenheiro de Software e estou constantemente estudando, desenvolvendo em projetos pessoais e trabalhando na UPBET.
 
     Desenvolvo aplicações Backend utilizando Node.js, Typescript, MongoDB, Prisma, Express, PostgreSQL, entre outros. Também já desenvolvi algumas aplicações Frontend utilizando React.js, Next.js e Tailwindcss.`,
 
@@ -125,7 +125,7 @@ export const Translation: TranslationType = {
       {
         id: 4,
         title: 'Momento Atual',
-        description: `Atualmente trabalho como Desenvolvedor Backend Júnior na InfinityTec.`,
+        description: `Atualmente trabalho como Software Engineer na UPBET.`,
       },
     ],
 
@@ -136,7 +136,7 @@ export const Translation: TranslationType = {
     portfolioListenSongsProjectDescription: 'Uma API completa feita com NestJS desenvolvida em um emprego anterior - mas simplificada e anonimizada.',
     contactViewLinkedinProfileButton: 'Acessar Perfil',
     contactDescription:
-      'Caso considere que eu possa contribuir com seus projetos, por favor me envie uma mensagem no LinkedIn ou no e-mail thomasalbuquerque@proton.me que estarei à disposição. :)',
+      'Caso considere que eu possa contribuir com seus projetos, por favor me envie uma mensagem no LinkedIn ou no e-mail tealbthomas@gmail.com que estarei à disposição.',
     contactCopyEmailButton: 'Copiar Email',
     contactCopyEmailMessage: 'Copiado!',
     contactViewGitHubButton: 'Acessar GitHub',
